@@ -1,0 +1,138 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+button {
+  display: block;
+  border: none;
+  background-color: inherit;
+  font-family: inherit;
+}
+
+body {
+  background-color: #e6eff6;
+  font-family: "Karla", sans-serif;
+}
+
+h1 {
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.container {
+  min-height: 100vh;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  padding: 30px;
+}
+
+.wrapper {
+  max-width: 650px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.05),
+    -10px 10px 30px rgba(0, 0, 0, 0.05);
+}
+
+.community {
+  background-color: #ffffff;
+  color: #a9acb1;
+  padding: 1em;
+}
+
+.community * {
+  margin: 1em 0;
+}
+
+.community h1 {
+  color: #69b7b7;
+}
+
+.community h2 {
+  color: #bfdf32;
+  font-size: 15px;
+}
+
+.community p {
+  font-size: 13px;
+  line-height: 2em;
+}
+
+.bottom {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.bottom > * {
+  flex: 1;
+}
+
+.subscription {
+  background-color: #2bb3b1;
+  padding: 1em;
+  color: #f1ffff;
+  min-width: 250px;
+}
+
+.subscription * {
+  margin: 15px 0px;
+}
+
+.price-number {
+  color: #eeffff;
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.period {
+  color: #75d1d0;
+}
+
+.subscription p {
+  color: #f0f8f8;
+}
+
+.subscription button {
+  background-color: #bfdf32;
+  color: white;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 15px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.why-us {
+  background-color: #4abebd;
+  padding: 1em;
+  min-width: 250px;
+}
+
+.why-us * {
+  margin: 10px;
+}
+
+.why-us h1 {
+  color: #eeffff;
+  margin-bottom: 1em;
+}
+
+.why-us p {
+  color: #f0f8f8;
+  font-weight: 100;
+  font-size: 14px;
+  margin-right: 65px;
+  line-height: 1.5em;
+}
+
+@media screen and (min-width: 560px) {
+  .community,
+  .subscription,
+  .why-us {
+    padding: 2.5em;
+  }
+}
